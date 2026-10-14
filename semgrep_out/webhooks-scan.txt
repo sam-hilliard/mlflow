@@ -1,0 +1,14 @@
+                  
+                  
+┌────────────────┐
+│ 1 Code Finding │
+└────────────────┘
+                              
+  [36m[22m[24m  delivery.py[0m
+     ❱ python.lang.security.audit.insecure-transport.requests.request-session-with-http.request-session-with-http
+          [31m[1m[24m❰❰ Blocking ❱❱[0m
+          Detected a request using 'http://'. This request will be unencrypted. Use 'https://' instead.
+          Details: https://sg.run/DoBY                                                                 
+                                                                                                       
+           93┆ session.mount("http://", adapter)
+
